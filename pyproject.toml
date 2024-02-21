@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llama-index-playground"
+version = "0.1.0"
+description = ""
+authors = ["Pao-Sheng Wang <paooap.oappao@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+llama-index = "^0.10.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,1 +1,1 @@
-# llama-index-playground
+# Llama Index Playground
