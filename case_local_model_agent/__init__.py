@@ -26,3 +26,6 @@ llm = Ollama(model="llama3.1:8b", request_timeout=120.0)
 agent = ReActAgent.from_tools([multiply_tool, add_tool], llm=llm, verbose=True)
 
 response = agent.chat("What is 20+(2*4)? Calculate step by step.")
+
+# it seems that can't response the correct answer, I think might be the problem is I use 8b model
+# and the model is not good enough to understand the question
